@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome Relative URL Templates !</h1>
+    <a href="{% url 'basic_app:other' %}">The Other Page </a>
+    <!--check to urls.py 
+         app name :-> 'basic_app:|||name='other'):->other' -->
+
+    <a href="{% url 'admin:index' %}"><br>Link to Admin <br></a>
+    
+    <a href="{% url 'index' %}"><br>Link to index <br></a>
+
+</body>
+</html>
